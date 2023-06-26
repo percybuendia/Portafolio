@@ -1,0 +1,308 @@
+:root{
+    --font-family-titulo: 'Caprasimo', cursive;
+    --font-family-parrafos: 'Ysabeau Infant', sans-serif;
+    --background--sobre-mi: #EAF2FD;
+    --background--fondo-oscuro:  #e5e5e557;
+}
+
+
+.container{
+    width: 90%;
+    margin:  0 auto;
+}
+
+main, header,footer{
+    background-color: var(--background--fondo-oscuro);
+}
+
+/*----------barra de navegacion---------- */
+
+.head__barra-navegacion{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head__nombre{
+    font-family: var(--font-family-parrafos);
+    font-size: 1.5rem;
+}
+
+.head__navegacion ul{
+    display: none;
+}
+
+.contacto{
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: var(--font-family-parrafos);
+    list-style: none;
+}
+
+/*----------section de hero---------- */
+
+.hero{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__contenedor--perfil{
+    text-align: center;
+}
+
+.hero__descripcion{
+    margin-top: 20px;
+}
+
+.hero__descripcion--titulo{
+    font-family: var(--font-family-titulo);
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+.hero__descripcion--parrafo{
+    font-family: var(--font-family-parrafos);
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.hero__descripcion--redes{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*----------section sobre mi---------- */
+
+.sobre__mi{
+    background-color: var(--background--sobre-mi);
+    margin-top: 30px;
+    padding: 5% 0;
+}
+
+.sobre__mi--titulo{
+    font-family: var(--font-family-titulo);
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+}
+
+.sobre__mi--parrafo{
+    font-family: var(--font-family-parrafos);
+    font-size: 1.15rem;
+    margin-bottom: 20px;
+}
+
+/*----------section sobre skills---------- */
+/*----------section sobre hobbies---------- */
+
+
+.skills , .hobbies{
+    margin-top: 30px;
+}
+
+.hobbies__titulo , .skills__titulo{
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: var(--font-family-titulo);
+    margin-bottom: 20px;
+}
+
+.skilss__line , .hobbies__line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    gap: 16px;
+}
+
+.skills__box , .hobbies__box {
+    background-color: #fff;
+    min-width: 156px;
+    min-height: 118px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills__box , .hobbies__box ul{
+    text-align: center;
+}
+
+.skills__img , .hobbies__img img{
+    margin-bottom: 10px;
+}
+
+.skills__name , .hobbies__name{
+    font-family: var(--font-family-parrafos);
+    font-size: 1.5rem;
+}
+
+
+/*----------section sobre formacion Academica---------- */
+
+.Formacion{
+    margin-top: 50px;
+    background-color: var(--background--sobre-mi);
+}
+
+.formacion__titulo{
+    font-family: var(--font-family-titulo);
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.formacion__academias{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formacion__academias--box ul{
+    padding: 0 10px;
+}
+
+
+.formacion__img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 118px;
+    background-color: #fff;
+    width: 100%;
+}
+.formacion__img img{
+    width: 84px;
+    height: 58px;
+}
+
+.formacion__lugar {
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.formacion__lugar ,.formacion__fecha{
+    font-size: 1.4rem;
+}
+
+/*----------section sobre Experiencia ---------- */
+
+.experiencia{
+    margin-top: 50px;
+}
+
+.experiencia__titulo{
+    text-align: center;
+    font-family: var(--font-family-titulo);
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+.experiencia__profesional{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.experiencia__box{
+    display: flex;
+    flex-direction: column;
+}
+
+.experiencia__subtitulo{
+    margin: 10px 0;
+    font-size: 1.3rem;
+    font-family: var(--font-family-titulo);
+}
+
+.experiencia__challenge{
+    font-family: var(--font-family-parrafos);
+    font-size: 1.2rem;
+}
+
+.experiencia__descripcion{
+    text-align: center;
+    margin-top: 20px ;
+}
+
+.experiencia__btn button{
+    padding: 15px 30px;
+    font-family: var(--font-family-parrafos);
+    border:1px solid #2A7AE4;
+    font-size: 1.15rem;
+    color: #2A7AE4;
+    font-weight: bold;
+}
+
+.demo button{
+    margin-left: 20px;
+    background-color: #2A7AE4;
+    color: white;
+}
+
+/*----------section sobre cotacto ---------- */
+
+.form__contacto{
+    margin-top: 50px;
+    background-color: var(--background--sobre-mi);
+    padding: 20px 0;
+}
+
+
+.form__contacto__titulo{
+    font-family: var(--font-family-titulo);
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+.form__contacto__parrafo{
+    margin-bottom: 10px;
+    font-family: var(--font-family-parrafos);
+}
+.form__contacto img{
+    display: none;
+}
+
+.form__contacto__form{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 20px;
+}
+
+.form__contacto__form input{
+    height: 56px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid  #2A7AE4 ;
+}
+
+.form__contacto__form textarea{
+    border-radius: 5px;
+    border: none;
+    border-bottom: 3px solid  #2A7AE4 ;
+}
+
+.form__contacto__btn{
+    width: 183px;
+    padding: 10px 15px;
+    font-size: 1.15rem;
+    border:1px solid #2A7AE4;
+    background-color: #2A7AE4;
+    color: white;
+    font-family: var(--font-family-parrafos);
+}
+
+
+/*----------section footer ---------- */
+
+
+.footer__pie-pagina{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer__pie-pagina p{
+    font-family: var(--font-family-parrafos);
+}
