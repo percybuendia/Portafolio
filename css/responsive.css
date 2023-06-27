@@ -1,0 +1,133 @@
+/*----------tablet  768px---------- */
+
+@media screen and (min-width:768px){
+
+    /*----------seccion hero---------- */
+
+    .hero{
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .hero__contenedor--perfil{
+        width: 30%;
+    }
+    
+    .hero__descripcion{
+        width: 70%;
+    }
+
+    
+    /*----------seccion skills y hobbies---------- */
+
+    .skills__box , .hobbies__box {
+        width: 30.3% ;
+    }
+
+
+
+    /*----------section sobre formacion Academica---------- */
+
+    .formacion__academias {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .formacion__academias--box{
+        width: 33.3%;
+    }
+
+
+
+    /*----------section sobre Experiencia ---------- */
+      
+    .experiencia__descripcion{
+        text-align: left;
+    }
+
+}
+
+
+/*----------desktop  1024px---------- */
+
+
+@media screen and (min-width: 1024px){
+    /*----------barra de navegacion---------- */
+
+    .head__navegacion{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .head__navegacion ul{
+        display: flex;
+        gap: 20px;
+        font-family: var(--font-family-parrafos);
+    }
+
+    /*----------seccion hero---------- */
+
+    .hero__contenedor--perfil img{
+        width: 368px;
+        height: 368px;
+    }
+
+    .hero__descripcion--titulo{
+        font-size: 3.2rem;
+    }
+
+    .hero__descripcion--parrafo{
+        font-size: 1.8rem;
+    }
+
+    .hero__descripcion--redes{
+        justify-content: start;
+        gap: 30px;
+    }
+    
+    
+    /*----------section sobre mi---------- */
+
+    .sobre__mi--descripcion p{
+        width: 70%;
+    }
+
+
+    /*----------seccion skills y hobbies---------- */
+
+    .skills__box , .hobbies__box {
+        width: 13.3% ;
+    }
+
+    /*----------section sobre formacion Academica---------- */
+
+    .formacion__img{
+        height: 286px;
+    }
+
+    /*----------section sobre Experiencia ---------- */
+
+    .experiencia__box{
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .challenge__two{
+        flex-direction: row-reverse;
+    }
+
+
+    /*----------section sobre cotacto ---------- */
+
+    .form__contacto--content{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .form__contacto__img img{
+        display: inline;
+    }
+}
